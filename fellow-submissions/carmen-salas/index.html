@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Marcy Lab Quiz</title>
+</head>
+<body>
+    <h1>How well do you know the people of Marcy Lab?</h1>
+    <h2>Take this quiz to find out.</h2>
+    <form action="#" method="post">
+        <fieldset>
+            <ul>
+                <li>
+                    <p>How many cats does kirk own?</p>
+                    <input placeholder="Answer" type="text" name="kirk-cats" id="kirk">
+                </li>
+            </ul>
+        </fieldset>
+        
+        <fieldset>
+            <ul>
+                <li>
+                    <p>Did Cielo pierce her own ears?</p>
+                    <lable for="cielo">Yes</lable>
+                    <input type="checkbox" class="cielo" name="cielo-answer" value='yes'>
+                        
+                    <lable for="cielo">No</lable>
+                    <input type="checkbox" class="cielo" name="cielo-answer" value='no'>
+                </li>
+            </ul>
+        </fieldset>
+        
+        <fieldset>
+            <ul>
+                <li>
+                    <p>
+                        What grocery store does Anne work at?
+                    </p>
+                </li>
+                <li id="radio-sec">
+                    <input type="radio" class="anne-radio" name="anne-answer" value="whole-foods">
+                    <lable for="anne">
+                        Whole Foods
+                    </lable>
+                    
+                    <input type="radio" class="anne-radio" name="anne-answer" >
+                    <lable for="anne" value="stop-shop">
+                        Stop n Shop
+                    </lable>
+                    
+                    <input type="radio" class="anne-radio" name="anne-answer" value="trader-joes">
+                    <label>
+                        Trader Joe's
+                    </label>
+                    
+                    <input type="radio" class="anne-radio" name="anne-answer">
+                    <label for="anne" value="glatt-mart">
+                        Glatt Mart
+                    </label>
+                </li>
+            </ul>
+        </fieldset>
+        
+        <fieldset>
+            <ul>
+                <li>
+                    <p>What kind of YouTube videos does
+                    Devonte make?</p>
+                    <input type="textarea" placeholder="Answer" >
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <ul>
+                <li>
+                    <p>
+                    Where is Laisha from?
+                    </p>
+                    
+                    <select>
+                        <option value="queens">
+                            Queens
+                        </option>
+                        
+                        <option value="bronx">
+                            The Bronx
+                        </option>
+                        
+                        <option value="jersey">
+                            New Jersey
+                        </option>
+                        
+                        <option value="staten">
+                        Staten Island
+                        </option>
+                    </select>
+                </li>
+            </ul>
+        </fieldset>
+    
+        <fieldset>
+            <button type="button">SUBMIT</button>
+        </fieldset>
+
+    </form>
+    
+    
+</body>
+</html>
